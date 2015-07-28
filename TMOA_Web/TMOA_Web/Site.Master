@@ -33,7 +33,7 @@
                         <AnonymousTemplate>
                             <ul>
                                 <li><a id="registerLink" runat="server" href="~/Account/Register">注册</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login">登录</a></li>
+                                <li><a id="loginLink" runat="server" href="~/oaindex.html">登录</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
