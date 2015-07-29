@@ -5,7 +5,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - 我的 ASP.NET 应用程序</title>
+    <title><%: Page.Title %> - 无需安装，小微企业永久免费</title>
     <link href="~/Content/Site.css" rel="stylesheet" /> 
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:PlaceHolder runat="server">        
@@ -26,8 +26,8 @@
         <div class="content-wrapper">
             <div class="float-left">
                <img alt="" src="/images/logo_login.png" />
-            </div>
-            <div class="float-right">
+            </div>      
+            <div class="float-right">                
                 <section id="login">
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
@@ -49,10 +49,24 @@
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">主页</a></li>
-                        <%--<li><a runat="server" href="~/About">关于</a></li>--%>
+                        <li><a runat="server" href="~/Buy">购买</a></li>
                         <li><a runat="server" href="~/Contact">联系方式</a></li>
                     </ul>
                 </nav>
+            </div>
+            <div class="float-center">
+                <div class="bdsharebuttonbox">                 
+                <a href="#" class="bds_more" data-cmd="more"></a>
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+                <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+                <a href="#" class="bds_ty" data-cmd="ty" title="分享到天涯社区"></a>
+            </div>
+                <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "永久免费在线协同办公系统", "bdMini": "2", "bdMiniList": false, "bdPic": "http://www.oa12.com/images/logo_login.png", "bdStyle": "0", "bdSize": "16" }, "share": {}, "image": { "viewList": ["tsina", "weixin", "qzone", "tqq", "renren", "tieba", "sqq", "ty"], "viewText": "分享到：", "viewSize": "32" }, "selectShare": { "bdContainerClass": null, "bdSelectMiniList": ["tsina", "weixin", "qzone", "tqq", "renren", "tieba", "sqq", "ty"] } }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
             </div>
             </div>
     </header>

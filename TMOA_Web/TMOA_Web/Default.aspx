@@ -8,8 +8,8 @@
                 <h2></h2>
             </hgroup>
             <p>
-                采用微软silverlight技术开发.
-                <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=4.0.50917.0" title="ASP.NET Forum">获取 Microsoft Silverlight</a>.
+                无需安装，小微企业永久免费，采用微软silverlight技术开发 
+                <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=4.0.50917.0" title="ASP.NET Forum">免费获取Microsoft Silverlight</a>
                 <%-- <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=4.0.50917.0" style="text-decoration: none">--%>
             <%--    <img src="http://go.microsoft.com/fwlink/?LinkId=161376" alt="获取 Microsoft Silverlight"
                     style="border-style: none" />--%>
