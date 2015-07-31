@@ -4,7 +4,7 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1><%: Title %>.</h1>
+                <h1><%: Title %>（即将开放，敬请关注)</h1>
                 <h2></h2>
             </hgroup>
             <p>
