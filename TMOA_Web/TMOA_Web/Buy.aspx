@@ -1,8 +1,8 @@
-﻿<%@ Page Title="购买" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Buy.aspx.cs" Inherits="TMOA_Web.About" %>
+﻿<%@ Page Title="服务" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Buy.aspx.cs" Inherits="TMOA_Web.About" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %>.</h1>
+        <h1><%: Title %> </h1>
         <h2>提莫协同办公系统服务</h2>
     </hgroup>
 

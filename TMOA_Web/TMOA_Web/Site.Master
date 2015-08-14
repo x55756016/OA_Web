@@ -50,7 +50,7 @@
                     <ul id="menu">
                         <li><img src="/Images/qqlog.jpg" style="height: 30px; width: 30px" /><a href="tencent://message/?uin=55756016&Site=&menu=yes" target="_blank">在线客服</a></li>
                         <li><a runat="server" href="~/">主页</a></li>
-                        <li><a runat="server" href="~/Buy">购买</a></li>
+                        <li><a runat="server" href="~/Buy">服务</a></li>
                         <li><a runat="server" href="~/Contact">联系方式</a></li>
                     </ul>
                 </nav>
