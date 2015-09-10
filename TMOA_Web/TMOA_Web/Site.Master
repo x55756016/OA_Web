@@ -50,7 +50,7 @@
                     <ul id="menu">
                         <li><img src="/Images/qqlog.jpg" style="height: 30px; width: 30px" /><a href="tencent://message/?uin=55756016&Site=&menu=yes" target="_blank">在线客服</a></li>
                         <li><a runat="server" href="~/">主页</a></li>
-                        <li><a runat="server" href="~/Buy">服务</a></li>
+                        <li><a runat="server" href="~/Buy">系统展示</a></li>
                         <li><a runat="server" href="~/Contact">联系方式</a></li>
                     </ul>
                 </nav>
@@ -80,7 +80,7 @@
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p><span>&copy; 2015-<%: DateTime.Now.Year %>  深圳市提莫科技有限公司 版权所有&nbsp; 粤ICP备14092264号-1</span></p>
+                <p><span>&copy; 2014-<%: DateTime.Now.Year %>  深圳市提莫科技有限公司 版权所有&nbsp; 粤ICP备14092264号-1</span></p>
             </div>
         </div>
     </footer>
